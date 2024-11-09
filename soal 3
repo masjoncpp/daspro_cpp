@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+    int n;
+    int jumlah;
+    int main(){
+    cout<<"Program Mencetak Angka Datar dan Menjumlahkannya!\n"<<endl;
+    cout<<"====================================================\n";
+    cout<<"Masukkan N : ";
+    cin>>n;
+    cout<<"Deret : ";
+
+        for(int i=1; i<=n; i++){
+            cout<<i<<" ";
+
+        }
+
+    jumlah = (n*(n+1))/2;
+    cout<<"Jumlah : "<<jumlah;
+return 0;
+}
