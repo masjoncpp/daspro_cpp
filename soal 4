@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+    int main(){
+    int n;
+    int pertamax;
+    cout<<"\t\tProgram Cetak Harga Pertamax"<<endl;
+    cout<<"\t==================================="<<endl;
+//isikan harga pertamax dan n!
+    cout<<"\tMasukkan harga Pertamax! : ";
+    cin>>pertamax;
+
+    cout<<"\tLiter : ";
+    cin>>n;
+
+//tabel
+    cout<<"\tLiter    Bayar"<<endl;
+    cout<<"\t==============================="<<endl;
+
+//cetak harga
+    for(int i=1; i<=n; i++){
+        cout<<"\t "<<left<<i;
+        cout<<"\t "<<left<<i*pertamax<<endl;
+
+    }
+
+    cout<<"\t==========================="<<endl;
+
+    return 0;
+    }
